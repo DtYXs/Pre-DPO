@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the repository for the paper Pre-DPO: Improving Data Utilization in Direct Preference Optimization Using a Guiding Reference Model.
+This is the repository for the paper [Pre-DPO: Improving Data Utilization in Direct Preference Optimization Using a Guiding Reference Model](https://arxiv.org/abs/2504.15843).
 
 Pre-DPO is a simple yet effective DPO-based training paradigm that enhances preference optimization performance by leveraging a **guiding reference model**.
 
