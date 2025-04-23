@@ -1,0 +1,44 @@
+{
+  "ultrachat_200k": {
+    "hf_hub_url": "HuggingFaceH4/ultrachat_200k",
+    "ms_hub_url": "AI-ModelScope/ultrachat_200k",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "ultrafeedback": {
+    "hf_hub_url": "llamafactory/ultrafeedback_binarized",
+    "ms_hub_url": "llamafactory/ultrafeedback_binarized",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "llama3.2-3b-ultrafeedback-armorm-binarized": {
+    "hf_hub_url": "DtYXs/llama3.2-3b-ultrafeedback-armorm-binarized",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "qwen2.5-7b-ultrafeedback-armorm-binarized": {
+    "hf_hub_url": "DtYXs/qwen2.5-7b-ultrafeedback-armorm-binarized",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
